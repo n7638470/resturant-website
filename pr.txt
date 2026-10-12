@@ -1,0 +1,1065 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+} 
+ 
+ header {
+    display: flex;
+    flex-direction: row;
+   /*  justify-content: flex-start; */
+    background-color: rgb(0, 0, 0);
+    height: 13vh;
+    position: relative;
+    z-index: 1;
+justify-content: space-between;
+align-items: center;
+
+}
+
+body {
+     width: 100%; */
+    background-color: rgb(0, 0, 0);
+    height: 250pc;
+}
+
+ nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 8px;
+    color: white;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 16px;
+    backdrop-filter: blur(12px);
+}
+
+.pn3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    gap: clamp(20px,4vw,70px);
+    margin-left: 0px;
+    padding-top: 35px;
+
+
+}
+
+nav button {
+
+    height: 33px;
+    margin-left: 20px;
+    top: 89px;
+    margin-top: 28px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: rgb(235, 42, 28);
+    padding: 2px 20px;
+    color: white;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 15px;
+    padding-bottom: 29px;
+
+
+
+}
+
+nav button:hover {
+    background-color: rgb(0, 0, 0);
+
+}
+
+.row p {
+    font-family: cursive;
+
+    color: rgb(232, 55, 55);
+}
+
+.row {
+    font-family: cursive;
+    position: relative;
+    left: -350px;
+    top: -10px;
+
+}
+
+.no {
+    text-decoration: underline rgb(248, 5, 53);
+    text-underline-offset: 6px;
+
+}
+
+
+
+.pro {
+
+    height: 89vh;
+  
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-image: url(main.png);
+
+
+}
+header {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 0;
+}
+
+.log img {
+    position: relative;
+    left: 45pc;
+    top: 10pc;
+    z-index: 100;
+}
+
+.nome {
+
+    margin-left: 60pc;
+    position: relative;
+    z-index: 1;
+
+} 
+ 
+ .cut {
+    color: rgb(245, 7, 57);
+}
+
+.nome {
+    color: white;
+    margin-left: 35pc;
+    margin-top: 13pc;
+    font-family: cursive;
+    font-weight: 800;
+    font-size: 33px;
+    position: relative;
+    z-index: 10;
+
+}
+
+
+
+.para span{
+    color: rgb(252, 252, 252);
+    left: 33pc;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 26px;
+    top: 13px;
+    position: relative;
+    z-index: 100;
+}
+
+.poo{
+    color: rgb(255, 1, 56);
+}
+
+.hero::after {
+    content: "";
+    position:
+        absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: 1;
+    height: 87vh;
+  
+    top: 112px;
+}
+
+.com {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-left: -100px;
+    margin: 60px 0px;
+
+
+}
+
+
+
+.foo img {
+    margin-left: 10px;
+    height: 60px;
+    
+
+    position: relative;
+    z-index: 100;
+
+}
+
+.foo img:hover {
+    height: 70px;
+    min-width: 230px;
+    width: 100%;
+}
+
+.go img {
+    margin-left: 50px;
+    height: 60px;
+   
+    margin-bottom: 400px;
+    position: relative;
+    z-index: 100;
+}
+
+.go img:hover {
+    height: 70px;
+    
+}
+
+
+.mua {
+    color: rgb(255, 255, 255);
+    margin-left: 45pc;
+    margin-top: -75px;
+    font-family: poppins;
+    font-size: 13px;
+    position: relative;
+    z-index: 100;
+}
+
+.mua {
+
+    animation-name: mua;
+    animation-delay: 0.1s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mua {
+    0% {
+        top: 10px;
+    }
+
+    50% {
+        top: 17px;
+    }
+
+    100% {
+        top: 10px;
+    }
+}
+
+#section Menu {
+    height: 200px;
+    scroll-behavior: smooth;
+}
+
+.pn3 li a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.pn3 li a:visited {
+    color: white;
+}
+
+.pn3 li a {
+    text-decoration: none;
+}
+
+.div {
+    font-size: clamp(1rem, 3vw, 2rem);
+    color: white;
+    margin-top: 10pc;
+    margin-left: 27pc;
+    font-family: poppins;
+}
+
+.s {
+    color: red;
+    font-family: cursive;
+}
+
+.arrow {
+    height: 40pc;
+    opacity: 0.27;
+    margin-top: 100px;
+    transform: rotate(-95deg);
+    margin-left: -400px;
+}
+
+.avacardo {
+    min-width: 100%;
+    width: 100%;
+    height: 100px;
+    margin-left: -400px;
+
+}
+
+.cucumber {
+    width: 100px;
+    height: 100px;
+}
+
+.chilli {
+    width: 100px;
+    height: 100px;
+}
+
+.arrow1 {
+    height: 40pc;
+
+    margin-bottom: 20pc;
+    transform: rotate(95deg);
+    margin-left: 252px;
+}
+
+.pop {
+
+    position: relative;
+    animation-name: pop;
+    animation-delay: 0.1s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    left: 30pc;
+    margin-top: 0px;
+
+    animation-range: entry 0% cover 100%;
+
+    animation: move 2sec linear;
+}
+
+@keyframes pop {
+    from {
+        transform: translateX(-300px);
+        opacity: 0.5;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+
+.spagati {
+    position: relative;
+
+}
+
+.sushi {
+    position: relative;
+
+
+}
+
+
+
+.foodmenu {
+    margin-top: 0px;
+}
+
+.nonu {
+
+    color: white;
+    position: relative;
+    left: 45pc;
+    top: -7pc;
+
+}
+
+.nonu {
+    position: relative;
+    font-family: cursive;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.nonu::before {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    content: "";
+    display: inline-block;
+  
+    height: 1px;
+    background: rgb(255, 252, 252);
+
+}
+
+
+
+.nonu {
+    display: inline-block;
+   
+
+    left: 50%;
+}
+
+.p {
+    color: white;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    position: relative;
+    left: 40pc;
+    top: -5pc;
+    display: inline;
+
+}
+
+.p span {
+    position: relative;
+    top: 2pc;
+    right: 23pc;
+}
+
+#k1 {
+    margin-left: 28px;
+}
+
+#k1 span {
+    margin-left: 15px;
+}
+
+#s1 {
+    margin-left: 45px;
+}
+
+#s1 span {
+    margin-left: 0px;
+}
+
+#s2 {
+    margin-left: 25px;
+}
+
+#s2 span {
+    margin-left: 0px;
+}
+
+#m {
+    margin-left: 30px;
+}
+
+#m span {
+    margin-left: -62px;
+}
+
+
+.leave {
+    position: relative;
+    top: 80px;
+    left: 0px;
+}
+
+.on {
+    position: relative;
+    top: 160px;
+
+}
+
+.t {
+    position: relative;
+    top: -80px;
+}
+
+.cumm {
+    position: relative;
+    top: 30pc;
+    right: 100px;
+}
+
+.ava {
+    position: relative;
+    top: 290px;
+    left: -60px;
+}
+
+.mummy {
+    position: relative;
+    bottom: -15pc;
+}
+
+.t2 {
+    top: 585;
+    right: 90px;
+}
+
+.null {
+    animation-name: pop;
+    animation-delay: 0.1s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-range: entry 0% cover 100%;
+    animation-range: entry 0% cover 100%;
+    animation: move 2sec linear;
+}
+
+
+@keyframes null {
+    from {
+        transform: translateX(0px);
+
+    }
+
+    to {
+        transform: translatex(-90px);
+    }
+}
+
+#reservation {
+    color: white;
+    position: relative;
+    ;
+    top: 6pc;
+
+}
+
+.con3 {
+   max-width: 500;
+   min-width: 750px;
+   width: 100%;
+    height: 70vh;
+    background-color: rgb(245, 244, 244);
+    border-radius: 15px;
+    position: relative;
+    top: 2pc;
+    left: 24pc;
+    z-index: 100;
+
+}
+
+.reserve {
+    font-size: 45px;
+    font-family: poppins;
+    font-weight: 800;
+    position: relative;
+    /* left: 29%; */
+    transform: translateX(29pc);
+}
+
+.reserve img {
+    animation:  2s infinite;
+}
+
+@keyframes star {
+    0% {
+        transform: scale(0.8);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(0.8);
+    }
+}
+
+
+
+
+.sause {
+    position: relative;
+    left: 31pc;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: medium;
+
+}
+
+.sause span {
+    color: red;
+  
+}
+
+.img8 {
+    position: relative;
+    top: 5pc;
+
+    z-index: 1;
+    left: 20pc;
+    animation: dish 2s 1;
+
+}
+div
+
+.img3 {
+    position: relative;
+    left: 59pc;
+    animation: dish 2s ease-out forwards 1;
+    top: 3pc;
+    animation: dish 2s ease-out forwards 1;
+}
+
+.img5 {
+    rotate: -55deg;
+    left: 25pc;
+    position: relative;
+    top: 3pc;
+    animation: dish 2s ease-out forwards 1;
+}
+
+.img6 {
+    position: relative;
+    transform: rotate(30deg);
+    left: 42pc;
+    top: -1pc;
+
+}
+
+.img7 {
+    position: relative;
+    transform: rotate(-30deg);
+    left: 20pc;
+    top: -1pc;
+
+}
+
+@keyframes dish {
+
+
+    from {
+        transform: translateY(100px);
+    }
+
+    to {
+        transform: translateY(0px);
+    }
+
+}
+
+
+.any{
+    color: black;
+    font-family: cursive;
+    font-size: 23px;
+    font-weight: 800;
+
+ left: 17pc;
+ position: relative;
+
+}
+.mona{
+   color: black;
+   font-family:cursive;
+   font-size: 13px;
+   font-weight: 500;
+
+   text-transform: capitalize;
+   gap: clamp(20px,4vw,18pc);
+}
+
+.nonu6{
+color: rgb(4, 4, 4);
+background-color: rgb(128, 125, 125);
+font-size: small;
+position: relative;
+top: 10pc;
+padding: 10px 20px;
+border-radius: 6px;
+opacity: 0.6;
+margin: 2pc 3pc;
+border: none;
+top: 39PX;
+
+}
+
+.nonu3{
+    position: relative;
+    left: -15pc;
+}
+.nonu5{
+
+    color: rgb(4, 4, 4);
+background-color: rgb(164, 161, 161);
+font-size: small;
+position: relative;
+top: 10pc;
+padding: 10px 20px;
+border-radius: 6px;
+opacity: 0.6;
+margin: 2pc 3pc;
+border: none;
+left: 5pc;
+top: 39PX;
+}
+
+
+ .nonu8{
+    color: rgb(4, 4, 4);
+background-color: rgb(123, 121, 121);
+font-size: small;
+position: relative;
+top: 10pc;
+padding: 10px 20px;
+border-radius: 6px;
+opacity: 0.6;
+margin: 2pc 3pc;
+border: none;
+top: 39PX;
+left: 5pc;
+} 
+div
+.nonu2{
+    position: relative;
+    left: -6pc; 
+}
+.nonu1{
+     position: relative;
+    left: -10pc;
+}
+.hold{
+    background-color: rgb(131, 129, 129);
+font-size: small;
+position: relative;
+top: 10pc;
+padding: 10px 20px;
+border-radius: 6px;
+opacity: 0.6;
+margin: 2pc 3pc;
+border: none;
+top: 20PX;
+left: 0pc;
+}
+.hold2{
+     color: black;
+   font-family:cursive;
+   font-size: 13px;
+   font-weight: 500;
+
+   text-transform: capitalize;
+   gap: 18pc;
+   top: -0pc;
+   left: 3pc;
+   position: relative;
+
+}
+
+.mona button{
+       background-color: rgb(231, 10, 10);
+font-size: small;
+position: relative;
+top: 10pc;
+padding: 12px 60px;
+border-radius: 8px;
+opacity: 0.6;
+margin: 2pc 3pc;
+border: none;
+top: 20PX;
+left: 13pc;
+opacity: 1;
+
+}
+.mona button{
+color: black;
+  color: black;
+   font-family:cursive;
+   font-size: 10px;
+   font-weight: 500;
+
+   text-transform: capitalize;
+}
+
+a {
+    color: white;
+}
+
+.video video{
+    height: 550px;
+    min-width: 24pc;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    top: 1.3pc;
+    border-radius: 6px;
+    left: -45pc;
+    overflow: hidden;
+    z-index: 1000;
+    }
+
+.sec span{
+    color: red;
+     text-transform: uppercase; 
+}
+.sec div{
+    color: white;
+
+}
+
+
+.sec{
+    color: white;
+    position: relative;
+    top: 2pc;
+    left: 40pc;
+    z-index: 10;
+    font-size: 63px;
+
+    font-family: poppins;
+}
+.megumi{
+    font-size: 50px;
+     color: white;
+    position: relative;
+  
+   
+ 
+}
+
+gap
+  .megumi ::before{
+    content: "";
+    height: 2px;
+   min-width: 200px;
+   width: 100%;
+    position: absolute;
+    background: rgb(240, 236, 236);
+    top: 100%;
+    left: 0pc;
+    display: inline-block;
+
+    font-family: poppins;
+    }
+.story {
+    color: white;
+    position: relative;
+    left: 10pc;
+    display: inline-block;
+
+}
+div
+.story pre{
+position: relative;
+right: -20pc;
+font-family: cursive;
+font-size: 12px;
+top: 6pc;
+z-index: 1000;
+}
+
+.story pre span{
+    color: red;
+    font-family: poppins;
+    font-size: 14px;
+}
+
+
+
+#about{
+    position: relative;
+    margin-top: -40px;
+    padding-top: 80px;
+}
+
+#contact{
+    color: white;
+    font-family: poppins;
+position: relative;
+top: 15pc;
+
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: clamp(20px,4vw,40px);
+    
+}
+.con1{
+    color: white;
+    font-size: 3pc;
+    position: relative;
+    left: 39pc;
+text-transform: capitalize;
+}
+.con2{
+
+    position: relative;
+    left: 39pc;
+text-transform: capitalize;
+font-size: 2pc;
+}
+.con2 span{
+    color: red;
+text-decoration: underline 1.8px white ;
+text-underline-offset: 7px;
+}
+
+.container{
+    position: relative;
+    top: 3pc;
+}
+.content1{
+    background-color: #030303;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 40px;
+ height: 36pc;
+ min-width: 30pc;
+ width: 100%;
+ left: 5pc;
+ position: relative;
+ text-transform: capitalize;
+}
+.contant2{
+    background-color: rgb(0, 0, 0);
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 20px;
+   height: 36pc;
+   max-width: 50pc;
+   width: 100%;
+}
+
+.meta1{
+    font-size: 20px;
+    left: 10pc;
+    position: relative;
+    top: 2pc;
+   
+}
+.mea2{
+    position: relative;
+bottom: 10pc;
+}
+.meta3{
+    position: relative;
+    top: -3pc;
+}
+.meta4{
+    position: relative;
+    top: -6pc;
+}
+.meta5{
+    position: relative;
+    top: -9pc;
+}
+
+#tom{
+    font-size: 20px;
+    position: relative;
+    top: 2pc;
+    left: 18pc;
+
+}
+
+#tom span{
+    position: relative;
+    top: 2pc;
+} 
+
+.every1{
+    position: relative;
+    top: 16pc;
+    left: -20.9pc;
+  
+}
+.ever1 textarea{
+  border: none;
+    border-radius: 5px;
+}
+
+.in{
+
+ 
+    top: 2.6pc;
+    left: -6pc;
+    border-radius: 4px;
+    border: none;
+    position: relative;
+    padding: 10px 20px;
+}
+.la{
+    color: rgb(249, 247, 247);
+  position: relative;
+  top: 2pc;
+  font-size: 16px;
+  left: -26pc;
+}
+.in1{
+     
+    top: 0.6pc;
+    left: 15pc;
+    border-radius: 4px;
+    border: none;
+    position: relative;
+    padding: 10px 20px;
+}
+.la1{
+        color: rgb(255, 255, 255);
+  position: relative;
+  top: pc;
+  font-size: 16px;
+  left: -4pc;
+}
+.every2{
+position: relative;
+left: 4.4pc;
+}
+.contant2 button{
+height: 40px;
+min-width: 200px;
+width: 100%;
+    position: relative;
+    left: -7pc;
+    background-color: #d10d0d;
+    border: none;
+    border-radius: 4px;
+color: white;
+top: 5pc;
+}
+
+footer{
+    color: white;
+    background-color: red;
+    height: 60px;
+    width: 100%;
+    text-transform: capitalize;
+    position: relative;
+    top: 15pc;
+    left: 0pc;
+    font-family: poppins;
+    font-size: 15px;
+    margin-left: 0pc;
+    padding: 28px 20pc;
+} 
+
+body {
+  background-color: rgb(3, 157, 3) !important;
+
+}
+
+
+
+
+
+
+
+@keyframes mua {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(7px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
